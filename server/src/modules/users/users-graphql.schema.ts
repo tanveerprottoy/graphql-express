@@ -6,7 +6,7 @@ import {
 } from 'graphql';
 import { contentType } from "../contents/contents-graphql-schema";
 import contentsService from "../contents/contents-service";
-import usersService from "./users-service";
+import usersService from "./users.service";
 import usersResolver from "./users.resolver";
 
 export const userInertResponseType = new GraphQLObjectType({

@@ -1,4 +1,4 @@
-import usersService from "./users-service";
+import usersService from "./users.service";
 
 class UsersResolver {
 

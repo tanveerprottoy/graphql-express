@@ -1,5 +1,5 @@
 import DbUtils from "../../libs/mongodb/db.utils";
-import usersRepository from "./users-repository";
+import usersRepository from "./users.repository";
 
 class UsersService {
 
